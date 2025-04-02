@@ -10,8 +10,8 @@ image:
   repository: abhishek00007/octopus-image
   # This sets the pull policy for images.
   pullPolicy: Always
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: "{{ .Values.image.tag }}"
+  # Overrides the image tag whose default is the chart appVersion."{{ .Values.image.tag }}"
+  tag: "dev-f153d4f"
 
 # This is for the secrets for pulling an image from a private repository more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
 imagePullSecrets: []
